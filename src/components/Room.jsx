@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 
 function Room(props){
     const [isLit,setLit]=useState(false);
-    const [temp,setTemp]=useState(77);
+    const [temp,setTemp]=useState(32);
 
     function turnOn(){
         setLit(true);
